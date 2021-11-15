@@ -39,3 +39,7 @@ class ResetForm(FlaskForm):
         if user is None:
             raise ValidationError('Please register for an account.')
 
+class BlogForm(FlaskForm):
+    title = StringField('Title', validators = [Required()])
+    body = TextAreaField('Your Blog here...', validators = [Required()])
+    submit = SubmitField('Post')
