@@ -1,4 +1,3 @@
-python manage.py db init
-python manage.py db migrate
-python manage.py db upgrade
+export MAIL_USERNAME='gavin.kariuki@student.moringaschool.com'
+
 python manage.py server
