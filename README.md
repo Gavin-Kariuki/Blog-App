@@ -88,6 +88,14 @@ To get a local copy up and running follow these simple steps.
    ```sh
    git clone https://github.com/Gavin-Kariuki/Blog-App.git
    ```
+2. Install all dependecies
+    ```sh
+    pip install -r ./requirements.txt
+    ```
+3.  Run the Application
+    ```sh
+    ./start.sh
+    ```
 
 <!-- USAGE EXAMPLES -->
 
