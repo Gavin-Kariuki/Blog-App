@@ -1,8 +1,8 @@
-"""add classes
+"""fressh
 
-Revision ID: bf52f82a7b53
+Revision ID: b5518f411250
 Revises: 
-Create Date: 2021-11-15 12:40:28.145844
+Create Date: 2021-11-16 11:19:32.618644
 
 """
 from alembic import op
@@ -10,7 +10,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = 'bf52f82a7b53'
+revision = 'b5518f411250'
 down_revision = None
 branch_labels = None
 depends_on = None
